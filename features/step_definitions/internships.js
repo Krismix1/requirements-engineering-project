@@ -10,23 +10,35 @@ Given('no internships available', function () {
   return 'pending';
 });
 
+Given('no internship search filters selected', function () {
+  return 'pending';
+});
+
 Given('some internships available', function () {
   return 'pending';
 });
 
-When('student requests internship list', function () {
+When('I request internship offers', function () {
   return 'pending';
 });
 
-Then('the student sees no internships', function () {
+Then('I see no internships', function () {
   return 'pending';
 });
 
-Then('the student sees all available internships', function () {
+Then('I see all available internships', function () {
   return 'pending';
 });
 
+Given(/^the filter (.*) is set to (.*)$/, function (filter, value) {
+  return 'pending';
+});
 
+Then(/^I see only available internships where (.*) is (.*)$/, function (filter, value) {
+  return 'pending';
+});
+
+// Feature: Companies can create internship offer
 Given('I am logged in as a company', function () {
   return 'pending';
 });
@@ -50,17 +62,14 @@ Then('the publishing company sees my application', function () {
 
 // Feature: Reply to an internship application
 Given('a student applied to the internship', function () {
-  // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
 
 When('I reply to the application', function () {
-  // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
 
 Then('the student should see the reply', function () {
-  // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
 
