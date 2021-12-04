@@ -6,11 +6,11 @@ Given('I am logged in as a student', function () {
   return 'pending';
 });
 
-Given('no internships created', function () {
+Given('no internships available', function () {
   return 'pending';
 });
 
-Given('some internships created', function () {
+Given('some internships available', function () {
   return 'pending';
 });
 
@@ -36,5 +36,30 @@ When('I create an internship offer', function () {
 });
 
 Then('the internship offer is visible under the company profile', function () {
+  return 'pending';
+});
+
+// Feature: Student applies to an internship
+When('I apply to an internship', function () {
+  return 'pending';
+});
+
+Then('the publishing company sees my application', function () {
+  return 'pending';
+});
+
+// Feature: Reply to an internship application
+Given('a student applied to the internship', function () {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+When('I reply to the application', function () {
+  // Write code here that turns the phrase above into concrete actions
+  return 'pending';
+});
+
+Then('the student should see the reply', function () {
+  // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });

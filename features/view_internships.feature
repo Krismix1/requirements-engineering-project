@@ -3,13 +3,13 @@ Feature: Students see available internships
 
   Scenario: No internships available
     Given I am logged in as a student
-    And no internships created
+    And no internships available
     When student requests internship list
     Then the student sees no internships
 
 
   Scenario: Internships available
     Given I am logged in as a student
-    And some internships created
+    And some internships available
     When student requests internship list
     Then the student sees all available internships
