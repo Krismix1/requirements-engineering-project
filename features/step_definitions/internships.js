@@ -63,3 +63,13 @@ Then('the student should see the reply', function () {
   // Write code here that turns the phrase above into concrete actions
   return 'pending';
 });
+
+// Feature: Create notes about application from student
+When('I create a note about the application', function () {
+  return 'pending';
+});
+
+
+Then('the note should be visible under the application', function () {
+  return 'pending';
+});
